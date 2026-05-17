@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #cfd9df, #e2ebf0);
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.left h1 {
+    color: #00c6ff;
+    font-size: 40px;
+}
+
+.left button {
+    background: #2c6ed5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.right img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.sections {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    background: #eaf3e6;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}

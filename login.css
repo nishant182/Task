@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #58d5e8, #aa2e78, #3f10cd);
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: #120808 0px 20px 20px -10px
+}
+
+.form h2 {
+    color: aquamarine;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.label label{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.label input {
+    color: #3f10cd;
+    height: 20px;
+}
+.button button {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: #3f10cd;
+}

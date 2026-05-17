@@ -1,0 +1,36 @@
+.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #58d5e8, #aa2e78, #3f10cd);
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    display:inline-block;
+    box-shadow: #120808 0px 20px 20px -10px;
+    transform: 0.3s;
+}
+
+.open:hover {
+    transform: translateY(-10px);
+}
+
+.img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.name h1 {
+    font-size: 30px;
+    color: rgb(37, 231, 16);
+    margin: 10px 0 0 0;
+}
+
+.description {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0 0 0;
+}

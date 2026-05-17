@@ -1,0 +1,78 @@
+.plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.basic {
+    background: linear-gradient(135deg, #58d5e8, #aa2e78, #3f10cd);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(210, 196, 196);
+    margin-top: 50px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display:inline-block;
+    text-decoration: none;
+    color: rgb(8, 52, 80);
+}
+
+.Premium {
+    background: linear-gradient(135deg, #7ac413, #2f8ead, #7c5a96);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: auto;
+    width: 200px;
+    text-align: center;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display:inline-block;
+    text-decoration: none;
+    color: rgb(8, 52, 80);
+}
+
+.pro {
+    background: linear-gradient(135deg, #58d5e8, #aa2e78, #3f10cd);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: auto;
+    width: 200px;
+    text-align: center;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display:inline-block;
+    text-decoration: none;
+    color: rgb(8, 52, 80);
+}
+
+.subscribe {
+    background-color: rgb(8, 52, 80);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.subscribe:hover {
+    background-color: rgb(34, 208, 25);
+    color: black;
+}
+
+.basic:hover, .Premium:hover, .pro:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 15px 25px rgba(0, 0, 0, 0.3);
+}
