@@ -1,0 +1,106 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: #111;
+            color: white;
+            padding: 40px;
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .box{
+            width: 220px;
+            height: 220px;
+            background: #222;
+            border: 2px solid white;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .box h2{
+            font-size: 20px;
+        }
+
+        .move:hover{
+            transform: translateX(50px);
+        }
+
+        .rotate:hover{
+            transform: rotate(45deg);
+        }
+
+        .zoom:hover{
+            transform: scale(1.2);
+        }
+
+        .skew:hover{
+            transform: skew(20deg);
+        }
+
+        .combine:hover{
+            transform: translateY(-20px) rotate(10deg) scale(1.1);
+        }
+
+        .image-box img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        .image-box:hover img{
+            transform: scale(1.3);
+        }
+
+        .btn{
+            padding: 15px 30px;
+            border: none;
+            background: cyan;
+            color: black;
+            font-size: 18px;
+            border-radius: 10px;
+            transition: 0.4s;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,255,255,0.5);
+        }
+
+        .card:hover{
+            transform: rotateY(180deg);
+        }
+
+        .scalex:hover{
+            transform: scaleX(1.5);
+        }
+
+        .origin{
+            transform-origin: left top;
+        }
+
+        .origin:hover{
+            transform: rotate(25deg);
+        }
